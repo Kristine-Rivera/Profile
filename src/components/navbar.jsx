@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import "./style.css";
+import logo from "public/logo.png";
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
         <Link href="/" className="anim-btn">
           <Image
             className="origin-center -rotate-90 hover:rotate-0 transition duration-500 ease-in-out cursor-pointer"
-            src="public/logo.png"
+            src={logo}
             alt="logo"
             width={30}
             height={30}
