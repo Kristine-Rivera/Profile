@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import "./style.css";
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
       <div className="anim flex items-center justify-center">
         <span class="mirror anim-text-mirror text-sm">ristine</span>
         <Link href="/" className="anim-btn">
-          <img
+          <Image
             className="origin-center -rotate-90 hover:rotate-0 transition duration-500 ease-in-out cursor-pointer"
             src="https://raw.githubusercontent.com/Kristine-Rivera/Profile/main/public/logo.png"
             alt="logo"
