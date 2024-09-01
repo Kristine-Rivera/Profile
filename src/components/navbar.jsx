@@ -37,7 +37,7 @@ const Navbar = () => {
         <Link href="/" className="anim-btn">
           <Image
             className="origin-center -rotate-90 hover:rotate-0 transition duration-500 ease-in-out cursor-pointer"
-            src="https://raw.githubusercontent.com/Kristine-Rivera/Profile/main/public/logo.png"
+            src="/logo.png"
             alt="logo"
             width={30}
             height={30}
@@ -49,12 +49,7 @@ const Navbar = () => {
       {/* ICONS */}
       <div className="hidden md:flex">
         <Link href="https://github.com">
-          <Image
-            src="https://raw.githubusercontent.com/Kristine-Rivera/Profile/main/public/github.png"
-            alt=""
-            width={24}
-            height={24}
-          />
+          <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
       </div>
 
