@@ -49,7 +49,19 @@
   animation-fill-mode: forwards;
 }
 
+.anim:active .anim-text {
+  width: 4.8em;
+  animation: type-in 1s steps(8, end), blink 1.1s linear 1s infinite;
+  animation-fill-mode: forwards;
+}
+
 .anim:hover .anim-text-mirror {
+  width: 4.8em;
+  animation: type-in 1s steps(8, end), blink 1.1s linear 1s infinite;
+  animation-fill-mode: forwards;
+}
+
+.anim:active .anim-text-mirror {
   width: 4.8em;
   animation: type-in 1s steps(8, end), blink 1.1s linear 1s infinite;
   animation-fill-mode: forwards;
