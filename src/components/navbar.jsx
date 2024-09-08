@@ -9,7 +9,6 @@ const links = [
   { url: "/", text: "Home" },
   { url: "/about", text: "About" },
   { url: "/portfolio", text: "Portfolio" },
-  { url: "/projects", text: "Projects" },
   { url: "/contact", text: "Contact" },
 ];
 
@@ -33,37 +32,37 @@ const Navbar = () => {
       {/* LOGO */}
       <div className="md:hidden w-1 h-1"></div>
       <div className="anim flex items-center justify-center">
-        <span class="mirror anim-text-mirror text-sm">ristine</span>
+        <span class="mirror anim-text-mirror text-2xl logo-text">ristine</span>
         <Link href="/" className="anim-btn">
           <Image
             className="origin-center -rotate-90 hover:rotate-0 transition duration-500 ease-in-out cursor-pointer"
-            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/logo.png?raw=true"
+            src="/logo.png"
             alt="logo"
             width={30}
             height={30}
           />
         </Link>
-        <span class="anim-text text-sm">ivera</span>
+        <span class="anim-text text-2xl logo-text">ivera</span>
       </div>
 
       {/* ICONS */}
-      <div className="hidden md:flex">
-        <Link href="https://github.com/tineriver">
-          <Image
-            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/github.png?raw=true"
-            alt=""
-            width={24}
-            height={24}
-          />
+      <div className="hidden md:flex gap-4">
+        <Link
+          href="https://github.com/tineriver"
+          className=""
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
 
-        <Link href="https://www.linkedin.com/in/tineriver/">
-          <Image
-            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/linkedin.png?raw=true"
-            alt=""
-            width={24}
-            height={24}
-          />
+        <Link
+          href="https://www.linkedin.com/in/tineriver/"
+          className=""
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
 
