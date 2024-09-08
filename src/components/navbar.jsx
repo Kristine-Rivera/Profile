@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link href="/" className="anim-btn">
           <Image
             className="origin-center -rotate-90 hover:rotate-0 transition duration-500 ease-in-out cursor-pointer"
-            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/logo.png"
+            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/logo.png?raw=true"
             alt="logo"
             width={30}
             height={30}
@@ -54,7 +54,7 @@ const Navbar = () => {
           target="_blank"
         >
           <Image
-            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/github.png"
+            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/github.png?raw=true"
             alt=""
             width={24}
             height={24}
@@ -68,7 +68,7 @@ const Navbar = () => {
           target="_blank"
         >
           <Image
-            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/linkedin.png"
+            src="https://github.com/Kristine-Rivera/Profile/blob/main/public/linkedin.png?raw=true"
             alt=""
             width={24}
             height={24}
